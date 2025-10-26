@@ -1,0 +1,377 @@
+{
+	"textures": [
+		{
+			"image": "enemy.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 240,
+				"h": 1249
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "mother0",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 200,
+						"h": 196
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 200,
+						"h": 196
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 200,
+						"h": 196
+					}
+				},
+				{
+					"filename": "enemyShot",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 35,
+						"h": 35
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 8,
+						"w": 26,
+						"h": 21
+					},
+					"frame": {
+						"x": 203,
+						"y": 1,
+						"w": 26,
+						"h": 21
+					}
+				},
+				{
+					"filename": "mother1",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 200,
+						"h": 196
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 200,
+						"h": 196
+					},
+					"frame": {
+						"x": 1,
+						"y": 199,
+						"w": 200,
+						"h": 196
+					}
+				},
+				{
+					"filename": "mother2",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 200,
+						"h": 196
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 200,
+						"h": 196
+					},
+					"frame": {
+						"x": 1,
+						"y": 397,
+						"w": 200,
+						"h": 196
+					}
+				},
+				{
+					"filename": "mother3",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 200,
+						"h": 196
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 200,
+						"h": 196
+					},
+					"frame": {
+						"x": 1,
+						"y": 595,
+						"w": 200,
+						"h": 196
+					}
+				},
+				{
+					"filename": "satelite3",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 116,
+						"h": 133
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 116,
+						"h": 133
+					},
+					"frame": {
+						"x": 1,
+						"y": 793,
+						"w": 116,
+						"h": 133
+					}
+				},
+				{
+					"filename": "satelite0",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 116,
+						"h": 132
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 116,
+						"h": 132
+					},
+					"frame": {
+						"x": 119,
+						"y": 793,
+						"w": 116,
+						"h": 132
+					}
+				},
+				{
+					"filename": "satelite1",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 115,
+						"h": 133
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 115,
+						"h": 133
+					},
+					"frame": {
+						"x": 119,
+						"y": 927,
+						"w": 115,
+						"h": 133
+					}
+				},
+				{
+					"filename": "satelite2",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 115,
+						"h": 133
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 115,
+						"h": 133
+					},
+					"frame": {
+						"x": 1,
+						"y": 928,
+						"w": 115,
+						"h": 133
+					}
+				},
+				{
+					"filename": "shooter0",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 83,
+						"h": 83
+					},
+					"spriteSourceSize": {
+						"x": 9,
+						"y": 0,
+						"w": 65,
+						"h": 83
+					},
+					"frame": {
+						"x": 118,
+						"y": 1062,
+						"w": 65,
+						"h": 83
+					}
+				},
+				{
+					"filename": "kamikaze0",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 54,
+						"h": 50
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 54,
+						"h": 50
+					},
+					"frame": {
+						"x": 185,
+						"y": 1062,
+						"w": 54,
+						"h": 50
+					}
+				},
+				{
+					"filename": "kamikaze1",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 54,
+						"h": 50
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 54,
+						"h": 50
+					},
+					"frame": {
+						"x": 185,
+						"y": 1114,
+						"w": 54,
+						"h": 50
+					}
+				},
+				{
+					"filename": "shooter1",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 63,
+						"h": 82
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 63,
+						"h": 82
+					},
+					"frame": {
+						"x": 1,
+						"y": 1166,
+						"w": 63,
+						"h": 82
+					}
+				},
+				{
+					"filename": "shooter2",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 63,
+						"h": 82
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 63,
+						"h": 82
+					},
+					"frame": {
+						"x": 66,
+						"y": 1166,
+						"w": 63,
+						"h": 82
+					}
+				},
+				{
+					"filename": "shooter3",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 63,
+						"h": 82
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 63,
+						"h": 82
+					},
+					"frame": {
+						"x": 131,
+						"y": 1166,
+						"w": 63,
+						"h": 82
+					}
+				},
+				{
+					"filename": "kamikaze2",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 54,
+						"h": 50
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 54,
+						"h": 50
+					},
+					"frame": {
+						"x": 1,
+						"y": 1063,
+						"w": 54,
+						"h": 50
+					}
+				},
+				{
+					"filename": "kamikaze3",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 54,
+						"h": 50
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 54,
+						"h": 50
+					},
+					"frame": {
+						"x": 57,
+						"y": 1063,
+						"w": 54,
+						"h": 50
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "3.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:697dfd2c632b762dda46c1323a6ce9a6:0e67f16d2edf9ded8d0a5032b4bf27f1:a99356c10d69482e9bee53d25c3d05e1$"
+	}
+}

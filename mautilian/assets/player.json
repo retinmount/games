@@ -1,0 +1,629 @@
+{
+	"textures": [
+		{
+			"image": "player.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 798,
+				"h": 256
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "miniMap",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 248,
+						"h": 248
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 6,
+						"w": 240,
+						"h": 236
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 240,
+						"h": 236
+					}
+				},
+				{
+					"filename": "health_bar",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 382,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 382,
+						"h": 16
+					},
+					"frame": {
+						"x": 1,
+						"y": 239,
+						"w": 382,
+						"h": 16
+					}
+				},
+				{
+					"filename": "wings3",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 86,
+						"h": 116
+					},
+					"spriteSourceSize": {
+						"x": 17,
+						"y": 0,
+						"w": 52,
+						"h": 116
+					},
+					"frame": {
+						"x": 243,
+						"y": 1,
+						"w": 52,
+						"h": 116
+					}
+				},
+				{
+					"filename": "playerShield",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 108,
+						"h": 108
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 108,
+						"h": 108
+					},
+					"frame": {
+						"x": 243,
+						"y": 119,
+						"w": 108,
+						"h": 108
+					}
+				},
+				{
+					"filename": "wings2",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 86,
+						"h": 116
+					},
+					"spriteSourceSize": {
+						"x": 22,
+						"y": 5,
+						"w": 42,
+						"h": 106
+					},
+					"frame": {
+						"x": 297,
+						"y": 1,
+						"w": 42,
+						"h": 106
+					}
+				},
+				{
+					"filename": "bar",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 456,
+						"h": 93
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 456,
+						"h": 93
+					},
+					"frame": {
+						"x": 341,
+						"y": 1,
+						"w": 456,
+						"h": 93
+					}
+				},
+				{
+					"filename": "shot",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 35,
+						"h": 35
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 10,
+						"w": 24,
+						"h": 17
+					},
+					"frame": {
+						"x": 341,
+						"y": 96,
+						"w": 24,
+						"h": 17
+					}
+				},
+				{
+					"filename": "miniMapShop",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 90,
+						"h": 90
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 90,
+						"h": 90
+					},
+					"frame": {
+						"x": 353,
+						"y": 115,
+						"w": 90,
+						"h": 90
+					}
+				},
+				{
+					"filename": "body0",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 86,
+						"h": 116
+					},
+					"spriteSourceSize": {
+						"x": 15,
+						"y": 34,
+						"w": 57,
+						"h": 48
+					},
+					"frame": {
+						"x": 385,
+						"y": 207,
+						"w": 57,
+						"h": 48
+					}
+				},
+				{
+					"filename": "shield_bar",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 382,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 382,
+						"h": 16
+					},
+					"frame": {
+						"x": 367,
+						"y": 96,
+						"w": 382,
+						"h": 16
+					}
+				},
+				{
+					"filename": "speed2_3",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 43,
+						"h": 90
+					},
+					"spriteSourceSize": {
+						"x": 3,
+						"y": 0,
+						"w": 40,
+						"h": 87
+					},
+					"frame": {
+						"x": 445,
+						"y": 114,
+						"w": 40,
+						"h": 87
+					}
+				},
+				{
+					"filename": "speed2_2",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 43,
+						"h": 90
+					},
+					"spriteSourceSize": {
+						"x": 7,
+						"y": 2,
+						"w": 36,
+						"h": 84
+					},
+					"frame": {
+						"x": 487,
+						"y": 114,
+						"w": 36,
+						"h": 84
+					}
+				},
+				{
+					"filename": "speed2_4",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 43,
+						"h": 90
+					},
+					"spriteSourceSize": {
+						"x": 7,
+						"y": 2,
+						"w": 36,
+						"h": 84
+					},
+					"frame": {
+						"x": 525,
+						"y": 114,
+						"w": 36,
+						"h": 84
+					}
+				},
+				{
+					"filename": "speed2_1",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 43,
+						"h": 90
+					},
+					"spriteSourceSize": {
+						"x": 10,
+						"y": 3,
+						"w": 33,
+						"h": 83
+					},
+					"frame": {
+						"x": 563,
+						"y": 114,
+						"w": 33,
+						"h": 83
+					}
+				},
+				{
+					"filename": "speed2_5",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 43,
+						"h": 90
+					},
+					"spriteSourceSize": {
+						"x": 10,
+						"y": 3,
+						"w": 33,
+						"h": 83
+					},
+					"frame": {
+						"x": 563,
+						"y": 114,
+						"w": 33,
+						"h": 83
+					}
+				},
+				{
+					"filename": "engine0",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 86,
+						"h": 116
+					},
+					"spriteSourceSize": {
+						"x": 3,
+						"y": 31,
+						"w": 22,
+						"h": 56
+					},
+					"frame": {
+						"x": 563,
+						"y": 199,
+						"w": 22,
+						"h": 56
+					}
+				},
+				{
+					"filename": "speed2_0",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 43,
+						"h": 90
+					},
+					"spriteSourceSize": {
+						"x": 14,
+						"y": 5,
+						"w": 28,
+						"h": 80
+					},
+					"frame": {
+						"x": 598,
+						"y": 114,
+						"w": 28,
+						"h": 80
+					}
+				},
+				{
+					"filename": "speed2_6",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 43,
+						"h": 90
+					},
+					"spriteSourceSize": {
+						"x": 14,
+						"y": 5,
+						"w": 28,
+						"h": 80
+					},
+					"frame": {
+						"x": 598,
+						"y": 114,
+						"w": 28,
+						"h": 80
+					}
+				},
+				{
+					"filename": "body1",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 86,
+						"h": 116
+					},
+					"spriteSourceSize": {
+						"x": 8,
+						"y": 30,
+						"w": 78,
+						"h": 57
+					},
+					"frame": {
+						"x": 598,
+						"y": 196,
+						"w": 78,
+						"h": 57
+					}
+				},
+				{
+					"filename": "wings0",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 86,
+						"h": 116
+					},
+					"spriteSourceSize": {
+						"x": 28,
+						"y": 22,
+						"w": 30,
+						"h": 72
+					},
+					"frame": {
+						"x": 628,
+						"y": 114,
+						"w": 30,
+						"h": 72
+					}
+				},
+				{
+					"filename": "wings1",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 86,
+						"h": 116
+					},
+					"spriteSourceSize": {
+						"x": 28,
+						"y": 22,
+						"w": 30,
+						"h": 72
+					},
+					"frame": {
+						"x": 660,
+						"y": 114,
+						"w": 30,
+						"h": 72
+					}
+				},
+				{
+					"filename": "speed2",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 36,
+						"h": 71
+					},
+					"spriteSourceSize": {
+						"x": 5,
+						"y": 2,
+						"w": 31,
+						"h": 66
+					},
+					"frame": {
+						"x": 678,
+						"y": 188,
+						"w": 31,
+						"h": 66
+					}
+				},
+				{
+					"filename": "speed4",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 36,
+						"h": 71
+					},
+					"spriteSourceSize": {
+						"x": 5,
+						"y": 2,
+						"w": 31,
+						"h": 66
+					},
+					"frame": {
+						"x": 678,
+						"y": 188,
+						"w": 31,
+						"h": 66
+					}
+				},
+				{
+					"filename": "engine1",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 86,
+						"h": 116
+					},
+					"spriteSourceSize": {
+						"x": 3,
+						"y": 21,
+						"w": 24,
+						"h": 72
+					},
+					"frame": {
+						"x": 692,
+						"y": 114,
+						"w": 24,
+						"h": 72
+					}
+				},
+				{
+					"filename": "speed1",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 36,
+						"h": 71
+					},
+					"spriteSourceSize": {
+						"x": 9,
+						"y": 3,
+						"w": 27,
+						"h": 64
+					},
+					"frame": {
+						"x": 711,
+						"y": 188,
+						"w": 27,
+						"h": 64
+					}
+				},
+				{
+					"filename": "speed3",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 36,
+						"h": 71
+					},
+					"spriteSourceSize": {
+						"x": 2,
+						"y": 0,
+						"w": 34,
+						"h": 69
+					},
+					"frame": {
+						"x": 718,
+						"y": 114,
+						"w": 34,
+						"h": 69
+					}
+				},
+				{
+					"filename": "speed5",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 36,
+						"h": 71
+					},
+					"spriteSourceSize": {
+						"x": 9,
+						"y": 3,
+						"w": 27,
+						"h": 64
+					},
+					"frame": {
+						"x": 740,
+						"y": 185,
+						"w": 27,
+						"h": 64
+					}
+				},
+				{
+					"filename": "speed0",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 36,
+						"h": 71
+					},
+					"spriteSourceSize": {
+						"x": 11,
+						"y": 4,
+						"w": 25,
+						"h": 63
+					},
+					"frame": {
+						"x": 754,
+						"y": 96,
+						"w": 25,
+						"h": 63
+					}
+				},
+				{
+					"filename": "speed6",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 36,
+						"h": 71
+					},
+					"spriteSourceSize": {
+						"x": 11,
+						"y": 4,
+						"w": 25,
+						"h": 63
+					},
+					"frame": {
+						"x": 754,
+						"y": 96,
+						"w": 25,
+						"h": 63
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "3.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:5468add12ac040a063ca854ccf9f83ec:4ded9a800f7a8f8590ca7bba5f6d2b79:86d5339b780aedd87b35e2b7c0a7e11b$"
+	}
+}
